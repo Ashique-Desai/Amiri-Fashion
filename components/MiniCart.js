@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+import React from 'react'
 import { Fragment, useContext, useRef } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { XIcon } from '@heroicons/react/outline'
@@ -158,4 +160,8 @@ export default function MiniCart({ cart }) {
       </Dialog>
     </Transition.Root>
   )
+}
+
+MiniCart.propTypes = {
+  cart: PropTypes.any
 }

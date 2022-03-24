@@ -1,14 +1,19 @@
+import PropTypes from 'prop-types'
+import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { formatter } from '../utils/helpers'
+// import { formatter } from '../utils/helpers'
 
 
 const ProductCard = ({ product }) => {
+  // eslint-disable-next-line no-unused-vars
   const { handle, title } = product.node
 
   const { altText, originalSrc } = product.node.images.edges[0].node
 
+  // eslint-disable-next-line no-unused-vars
   const price = product.node.priceRange.minVariantPrice.amount
+  // eslint-disable-next-line no-unused-vars
   const compareAtPrice = product.node.compareAtPriceRange.maxVariantPrice.amount
 
   return (
@@ -31,6 +36,10 @@ const ProductCard = ({ product }) => {
     </Link>
     
   )
+}
+
+ProductCard.propTypes = {
+  product: PropTypes.any
 }
 
 export default ProductCard

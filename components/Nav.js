@@ -1,4 +1,7 @@
+/* eslint-disable react/jsx-no-duplicate-props */
+/* eslint-disable no-unused-vars */
 /* This example requires Tailwind CSS v2.0+ */
+import React from 'react'
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import {

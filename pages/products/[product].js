@@ -1,9 +1,11 @@
+import PropTypes from 'prop-types'
+import React from 'react'
 import Head from "next/head"
 import ProductPageContent from "../../components/ProductPageContext"
-import { getAllProducts, getProduct, recursiveCatalog } from "../../lib/shopify"
+import { getProduct, recursiveCatalog } from "../../lib/shopify"
 
 export default function ProductPage({ product }) {
-  return (
+   return (
     <>
       <Head>
         <title>Hey Sassy - Products</title>
@@ -42,4 +44,8 @@ export async function getStaticProps({ params }) {
       product
     }
   }
+}
+
+ProductPage.propTypes = {
+  product: PropTypes.string.isRequired
 }

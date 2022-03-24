@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+import React from 'react'
 import Link from 'next/link'
 
 export default function CTAtrial(props) {
@@ -10,4 +12,8 @@ export default function CTAtrial(props) {
             </Link>
         </div>
     )
+}
+
+CTAtrial.propTypes = {
+    description: PropTypes.string
 }

@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+import React from 'react'
 import { createContext, useState, useEffect } from 'react'
 import { createCheckout, updateCheckout } from '../lib/shopify'
 
@@ -91,5 +93,9 @@ export default function ShopProvider({ children }) {
 }
 
 const ShopConsumer = CartContext.Consumer
+
+ShopProvider.propTypes = {
+  children: PropTypes.string
+}
 
 export { ShopConsumer, CartContext }

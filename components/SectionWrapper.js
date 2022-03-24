@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 
 export default function SectionWrapper({ children }) {
@@ -8,4 +9,8 @@ export default function SectionWrapper({ children }) {
             {/* </div> */}
         </section>
     )
+}
+
+SectionWrapper.propTypes = {
+    children: PropTypes.string
 }

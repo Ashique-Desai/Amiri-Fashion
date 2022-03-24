@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 // PRE-SPRING 2022 MENSWEAR
 
@@ -10,6 +11,9 @@ const TextHeadingBlock = (props) => {
         </div>
     )
    
+}
+TextHeadingBlock.propTypes = {
+    text: PropTypes.string
 }
 
 export default TextHeadingBlock

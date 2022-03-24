@@ -1,6 +1,7 @@
+import React from 'react'
 import Link from 'next/link'
 
-export default function CallToAction({ product }) {
+export default function CallToAction() {
     
     return (
         <div className='bottom-left-aligned lg:ml-16 ml-6 lg:mb-20 mb-10 z-[40]'>
@@ -11,3 +12,4 @@ export default function CallToAction({ product }) {
         </div>
     )
 }
+

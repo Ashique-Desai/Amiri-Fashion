@@ -1,12 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
 import imageLadyinBlack from '../images/home-lady-in-black.jpg'
-import CallToAction from './CallToAction'
 import CTAdelete from './CTAdelete' 
-import trialImage from '../images/poor-girl-2.jpg'
 import TextHeadingBlock from './TextHeadingBlock'
 
-export default function BannerWomens(props) {
+export default function BannerWomens() {
     return (
         <div className='block relative mb-16'>
             <div className='relative'>

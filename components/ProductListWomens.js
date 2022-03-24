@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+import React from "react"
 import ProductCard from "./ProductCard"
 
 
@@ -18,6 +20,10 @@ const ProductListWomens = ({ products }) => {
     </div>
     // </div>
   )
+}
+
+ProductListWomens.propTypes = {
+  products: PropTypes.any
 }
 
 export default ProductListWomens

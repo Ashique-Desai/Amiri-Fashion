@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/ban-types */
+/* eslint-disable no-empty */
+/* eslint-disable no-undef */
 define(['exports'], (function (exports) { 'use strict';
 
     try {

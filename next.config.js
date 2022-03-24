@@ -1,6 +1,7 @@
-const withPWA = require("next-pwa")
+/* eslint-disable no-undef */
+import withPWA from "next-pwa"
 
-module.exports = withPWA({
+export default withPWA({
   pwa: {
     dest: "public",
     register: true,

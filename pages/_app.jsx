@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+import React from 'react'
 import 'tailwindcss/tailwind.css'
 import 'swiper/scss'
 import 'swiper/scss/navigation'
@@ -7,8 +9,7 @@ import ShopProvider from '../context/shopContext'
 import { useRouter } from 'next/router'
 import '../styles/globals.css'
 import { ClerkProvider, SignedIn, SignedOut, RedirectToSignIn } from '@clerk/nextjs'
-// import '../styles/test.css'
-// import '../styles/test-2.css'
+
 const publicPages = ['/', '/products/[product]', '/faq', '/jobs', '/privacy', '/returns', '/terms', '/shop', '/shipping', '/story']
 // Supplying a theme prop for clerk
  const theme = {
@@ -24,8 +25,7 @@ const publicPages = ['/', '/products/[product]', '/faq', '/jobs', '/privacy', '/
     },
  }
 
-
-function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }) {
   // Get the pathname
   const { pathname } = useRouter();
   // Check if the current route matches a public page
@@ -64,6 +64,13 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default MyApp
+// export default MyApp
+
+MyApp.propTypes = {
+  Component: PropTypes.any,
+  pageProps: PropTypes.any
+  
+}
+
 
 

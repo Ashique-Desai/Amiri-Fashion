@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+import React from 'react'
 import { useState, useContext } from "react"
 import { formatter } from '../utils/helpers'
 import ProductOptions from "./ProductOptions"
@@ -83,4 +85,8 @@ export default function ProductForm({ product }) {
 
     </div>
   )
+}
+
+ProductForm.propTypes = {
+  product: PropTypes.any
 }

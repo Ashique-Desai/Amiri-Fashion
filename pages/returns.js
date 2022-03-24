@@ -1,3 +1,4 @@
+import React from 'react'
 import Head from "next/head"
 
 export default function ReturnExchange() {
@@ -70,8 +71,8 @@ export default function ReturnExchange() {
                         USA</p>
                     <p>We cannot be held responsible for Goods damaged or lost in return shipment. Therefore, We recommend an insured and trackable mail service. We are unable to issue a refund without actual receipt of the Goods or proof of received return delivery.</p>
                     <h1>Gifts</h1>
-                    <p>If the Goods were marked as a gift when purchased and then shipped directly to you, You'll receive a gift credit for the value of your return. Once the returned product is received, a gift certificate will be mailed to You.</p>
-                    <p>If the Goods weren't marked as a gift when purchased, or the gift giver had the Order shipped to themselves to give it to You later, We will send the refund to the gift giver.</p>
+                    <p>If the Goods were marked as a gift when purchased and then shipped directly to you, You&apos;ll receive a gift credit for the value of your return. Once the returned product is received, a gift certificate will be mailed to You.</p>
+                    <p>If the Goods weren&apos;t marked as a gift when purchased, or the gift giver had the Order shipped to themselves to give it to You later, We will send the refund to the gift giver.</p>
                     <h2>Contact Us</h2>
                     <p>If you have any questions about our Returns and Refunds Policy, please contact us:</p>
                     <ul>

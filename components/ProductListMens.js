@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+import React from 'react'
 import ProductCard from "./ProductCard"
 import TextHeadingBlock from "./TextHeadingBlock"
 
@@ -18,4 +20,7 @@ const ProductListMens = ({ products }) => {
   )
 }
 
+ProductListMens.propTypes = {
+  products: PropTypes.any
+}
 export default ProductListMens
