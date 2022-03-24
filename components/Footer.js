@@ -50,7 +50,7 @@ export default function Footer() {
           }
         </nav>
         <nav className="lg:flex hidden flex-col text-sm sm:mr-20">
-          <div className="text-current px-4 py-2">
+           <div className="text-current px-4 py-2">
             <p>Main</p>
             <hr className="line bg-slate-300 m-0 my-2 align-text-left"></hr>
           </div>
