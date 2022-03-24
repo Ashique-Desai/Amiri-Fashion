@@ -17,16 +17,16 @@ const navigation2 = [
 
 export default function Footer() {
   return (
-    <footer className="bg-sassy-pink mt-16 lg:py-24 py-12 px-4 overflow-hidden sm:px-6 lg:px-8 uppercase">
-      <div className="max-w-screen-3xl ml-auto mr-auto lg:pr-96  flex lg:flex-row-reverse flex-col lg:justify-between">
+    <footer className="relative bg-transparent mt-16 lg:py-24 py-12 px-2 overflow-hidden sm:px-6 lg:px-16 uppercase">
+      <div className="ml-auto mr-auto lg:pr-60 pr-0 flex lg:flex-row-reverse flex-col lg:justify-between">
         <nav className="lg:hidden flex flex-col text-sm">
-          <div className="color-off-white px-6 py-2">
+          <div className="text-current px-4 lg:pl-0 py-2">
             <p>Main</p>
-            <hr className="line bg-off-white m-0 my-2 align-text-left"></hr>
+            <hr className="line bg-slate-300 m-0 my-2 align-text-left"></hr>
           </div>
           {
             navigation1.map((item, i) => (
-              <div key={i} className="px-6 lg:py-2 py-0 color-off-white">
+              <div key={i} className="px-4 lg:py-2 py-0 text-current">
                 <Link href={item.href}>
                   {item.name}
                 </Link>
@@ -35,13 +35,13 @@ export default function Footer() {
           }
         </nav>
         <nav className="flex flex-col lg:mt-0 mt-4 text-sm">
-          <div className="color-off-white px-6 py-2">
-            <p>Talk To Us<br />Hello@HeySassy.com</p>
-            <hr className="line bg-off-white m-0 my-2 align-text-left"></hr>
+          <div className="text-current px-4 py-2">
+            <p>Talk To Us<br />Hello@AMIRI.com</p>
+            <hr className="line bg-slate-300 m-0 my-2 align-text-left"></hr>
           </div>
           {
             navigation2.map((item, i) => (
-              <div key={i} className="px-6 lg:py-2 py-0 color-off-white">
+              <div key={i} className="px-4 lg:py-2 py-0 text-current">
                 <Link href={item.href}>
                   {item.name}
                 </Link>
@@ -49,27 +49,27 @@ export default function Footer() {
             ))
           }
         </nav>
-        <nav className="lg:flex hidden flex-col text-sm">
-          <div className="color-off-white px-6 py-2">
+        <nav className="lg:flex hidden flex-col text-sm sm:mr-20">
+          <div className="text-current px-4 py-2">
             <p>Main</p>
-            <hr className="line bg-off-white m-0 my-2 align-text-left"></hr>
+            <hr className="line bg-slate-300 m-0 my-2 align-text-left"></hr>
           </div>
           {
             navigation1.map((item, i) => (
-              <div key={i} className="px-6 lg:py-2 py-0">
-                <a href={item.href} className="color-off-white">
+              <div key={i} className="px-4 lg:py-2 py-0">
+                <a href={item.href} className="text-current">
                   {item.name}
                 </a>
               </div>
             ))
           }
         </nav>
-        <div className="px-6 py-2">
-          <p className="lg:mt-0 mt-8 color-off-white lowercase text-sm">
-            &copy; 2022 HeySassy.
+        <div className="px-4 lg:pl-0 sm:mr-20 py-2">
+          <p className="lg:mt-0 mt-8 text-current text-sm">
+            &copy; 2022 AMIRI.
           </p>
-          <hr className="line bg-off-white m-0 my-2 align-text-left"></hr>
-          <p className="color-off-white m-0 my-2 normal-case text-sm lg:py-2 py-0">
+          <hr className="line bg-slate-300 m-0 my-2 align-text-left"></hr>
+          <p className="text-current m-0 my-2 normal-case text-sm lg:py-2 py-0">
             Our vision is to design and deliver<br className="xl:hidden" /> fashion, while always keeping it fresh.
           </p>
         </div>

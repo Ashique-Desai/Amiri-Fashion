@@ -7,7 +7,8 @@ import ShopProvider from '../context/shopContext'
 import { useRouter } from 'next/router'
 import '../styles/globals.css'
 import { ClerkProvider, SignedIn, SignedOut, RedirectToSignIn } from '@clerk/nextjs'
-
+// import '../styles/test.css'
+// import '../styles/test-2.css'
 const publicPages = ['/', '/products/[product]', '/faq', '/jobs', '/privacy', '/returns', '/terms', '/shop', '/shipping', '/story']
 // Supplying a theme prop for clerk
  const theme = {

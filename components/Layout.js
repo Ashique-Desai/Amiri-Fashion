@@ -4,12 +4,14 @@ import Nav from './Nav'
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <>
       <Nav />
-      <main className='block break-words hyphens-auto pb-16 sm:px-8 px-2 max-w-screen-3xl ml-auto mr-auto'>
+      <main className='block break-words hyphens-auto pb-16 px-0 ml-auto mr-auto absolute left-0 top-0 w-full'>
         {children}
+        <Footer />
       </main>
-      <Footer />
-    </div>
+      
+     
+    </>
   )
 }

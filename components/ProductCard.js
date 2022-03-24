@@ -14,8 +14,8 @@ const ProductCard = ({ product }) => {
   return (
     <Link
       href={`/products/${handle}`}>
-       <a className="group pb-6">
-        <div className=" bg-gray-200 rounded-3xl overflow-hidden aspect-square">
+       <a className="group">
+        <div className=" bg-gray-200  overflow-hidden aspect-square">
           <div className="relative group-hover:opacity-75 h-full">
             <Image
               src={originalSrc}
@@ -25,8 +25,8 @@ const ProductCard = ({ product }) => {
             />
           </div>
         </div>
-        <button className='bg-sassy-pink color-off-white rounded-full px-4 py-2 my-3'>Add to Cart | {formatter.format(price)}</button>
-        <p className="mt-1 text-base">{formatter.format(price)}  |  <span><del>{formatter.format(compareAtPrice)}</del></span></p>
+        {/* <button className='bg-sassy-pink color-off-white rounded-full px-4 py-2 my-3'>Add to Cart | {formatter.format(price)}</button>
+        <p className="mt-1 text-base">{formatter.format(price)}  |  <span><del>{formatter.format(compareAtPrice)}</del></span></p> */}
       </a>
     </Link>
     

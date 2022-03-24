@@ -2,12 +2,12 @@ import React from "react";
 
 export default function FAQ() {
     return (
-        <section class="relative py-16 min-w-screen animation-fade animation-delay bg-off-white">
+        <section class="relative py-16 min-w-screen animation-fade animation-delay">
             <div class="container px-8 mx-auto sm:px-12 xl:px-5">
                 <h3 class="mt-1 text-2xl font-bold text-left  sm:mx-6 sm:text-3xl md:text-4xl lg:text-5xl sm:text-center">
                     Frequently Asked Questions
                 </h3>
-                <div class="w-full px-6 py-6 mx-auto mt-10 bg-off-white sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
+                <div class="w-full px-6 py-6 mx-auto mt-10 bg-slate-50 sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
                     <h3 class="text-lg font-bold  sm:text-xl md:text-2xl">Returns</h3>
                     <p class="mt-2 text-base  sm:text-lg md:text-normal">
                         We want you to be so excited about every item you purchase from us, so, if you don't love your garment, send it back!
@@ -19,7 +19,7 @@ export default function FAQ() {
                         back to us for your item to be refunded.  Please do not
                     </p>
                 </div>
-                <div class="w-full px-6 py-6 mx-auto mt-10 bg-off-white sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
+                <div class="w-full px-6 py-6 mx-auto mt-10 bg-slate-50 sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
                     <h3 class="text-lg font-bold  sm:text-xl md:text-2xl">Can I exchange for another size?</h3>
                     <p class="mt-2 text-base  sm:text-lg md:text-normal">
                     Yes! We are able to accommodate exchanges for items that are in stock. 
@@ -28,7 +28,7 @@ export default function FAQ() {
                     to accommodate an exchange in your size of choice. 
                     </p>
                 </div>
-                <div class="w-full px-6 py-6 mx-auto mt-10 bg-off-white sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
+                <div class="w-full px-6 py-6 mx-auto mt-10 bg-slate-50 sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
                     <h3 class="text-lg font-bold  sm:text-xl md:text-2xl">My item arrived damaged from shipping.</h3>
                     <p class="mt-2 text-base  sm:text-lg md:text-normal">
                     We offer Route package protection automatically on all orders to protect against this exact issue. You can file a 
@@ -36,7 +36,7 @@ export default function FAQ() {
                     there is nothing we can do to help you with this issue.
                     </p>
                 </div>
-                <div class="w-full px-6 py-6 mx-auto mt-10 bg-off-white sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
+                <div class="w-full px-6 py-6 mx-auto mt-10 bg-slate-50 sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
                     <h3 class="text-lg font-bold  sm:text-xl md:text-2xl">My item was wrong or something was wrong</h3>
                     <p class="mt-2 text-base  sm:text-lg md:text-normal">
                     Please email us at hello.heysassy.com with a description (photos help also!) and I will make it right and shower you with attention and apologies. 

@@ -2,12 +2,12 @@ import React from 'react'
 
 const TermsAndConditions = () => {
     return (
-        <section class="relative py-16 min-w-screen animation-fade animation-delay bg-off-white">
+        <section class="relative py-16 min-w-screen animation-fade animation-delay">
             <div class="container px-8 mx-auto sm:px-12 xl:px-5">
                 <h3 class="mt-1 text-2xl font-bold text-left  sm:mx-6 sm:text-3xl md:text-4xl lg:text-5xl sm:text-center">
                     Terms and Conditions
                 </h3>
-                <div class="w-full px-6 py-6 mx-auto mt-10 bg-off-white sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
+                <div class="w-full px-6 py-6 mx-auto mt-10 bg-slate-50 sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
                     <h3 class="text-lg font-bold  sm:text-xl md:text-2xl">AGREEMENT TO TERMS</h3>
                     <p class="mt-2 text-base  sm:text-lg md:text-normal">
                         These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Hey Sassy] (“we,” “us” or “our”), concerning your access to and use of the [heysassy.com] website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”).
@@ -21,7 +21,7 @@ const TermsAndConditions = () => {
                         Option 2: [The Site is intended for users who are at least 13 years of age.] All users who are minors in the jurisdiction in which they reside (generally under the age of 18) must have the permission of, and be directly supervised by, their parent or guardian to use the Site. If you are a minor, you must have your parent or guardian read and agree to these Terms of Use prior to you using the Site.
                     </p>
                 </div>
-                <div class="w-full px-6 py-6 mx-auto mt-10 bg-off-white sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
+                <div class="w-full px-6 py-6 mx-auto mt-10 bg-slate-50 sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
                     <h3 class="text-lg font-bold  sm:text-xl md:text-2xl">INTELLECTUAL PROPERTY RIGHTS</h3>
                     <p class="mt-2 text-base  sm:text-lg md:text-normal">
                         Unless otherwise indicated, the Site is our proprietary property and all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics on the Site (collectively, the “Content”) and the trademarks, service marks, and logos contained therein (the “Marks”) are owned or controlled by us or licensed to us, and are protected by copyright and trademark laws and various other intellectual property rights and unfair competition laws of the United States, foreign jurisdictions, and international conventions.
@@ -29,7 +29,7 @@ const TermsAndConditions = () => {
                         Provided that you are eligible to use the Site, you are granted a limited license to access and use the Site and to download or print a copy of any portion of the Content to which you have properly gained access solely for your personal, non-commercial use. We reserve all rights not expressly granted to you in and to the Site, the Content and the Marks.
                     </p>
                 </div>
-                <div class="w-full px-6 py-6 mx-auto mt-10 bg-off-white sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
+                <div class="w-full px-6 py-6 mx-auto mt-10 bg-slate-50 sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
                     <h3 class="text-lg font-bold  sm:text-xl md:text-2xl">USER REPRESENTATIONS</h3>
                     <p class="mt-2 text-base  sm:text-lg md:text-normal">
                         By using the Site , you represent and warrant that:
@@ -44,7 +44,7 @@ const TermsAndConditions = () => {
                         If you provide any information that is untrue, inaccurate, not current, or incomplete, we have the right to suspend or terminate your account and refuse any and all current or future use of the Site (or any portion thereof).
                     </p>
                 </div>
-                <div class="w-full px-6 py-6 mx-auto mt-10 bg-off-white sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
+                <div class="w-full px-6 py-6 mx-auto mt-10 bg-slate-50 sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
                     <h3 class="text-lg font-bold  sm:text-xl md:text-2xl">USER REGISTRATION</h3>
                     <p class="mt-2 text-base  sm:text-lg md:text-normal">
                     You may be required to register with the Site. You agree to keep your password confidential 
@@ -53,7 +53,7 @@ const TermsAndConditions = () => {
                     obscene, or otherwise objectionable.
                     </p>
                 </div>
-                <div class="w-full px-6 py-6 mx-auto mt-10 bg-off-white sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
+                <div class="w-full px-6 py-6 mx-auto mt-10 bg-slate-50 sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
                     <h3 class="text-lg font-bold  sm:text-xl md:text-2xl">PRODUCTS</h3>
                     <p class="mt-2 text-base  sm:text-lg md:text-normal">
                     We make every effort to display as accurately as possible the 

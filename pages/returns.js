@@ -8,7 +8,7 @@ export default function ReturnExchange() {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta name="theme-color" content="#ff00a5" />
             </Head>
-            <section className="relative py-16 min-w-screen animation-fade animation-delay bg-off-white">
+            <section className="relative py-16 min-w-screen animation-fade animation-delay bg-slate-50">
                 <div className="container px-8 mx-auto sm:px-12 xl:px-5">
                     <h3 className="mt-1 text-2xl font-bold text-left  sm:mx-6 sm:text-3xl md:text-4xl lg:text-5xl sm:text-center pb-12">
                         Return and Refund Policy
