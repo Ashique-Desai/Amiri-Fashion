@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import Head from "next/head"
 import { getProductsInCollection } from "../lib/shopify"
-import ProductList from "../components/ProductList"
+import ProductListAll from "../components/ProductListAll"
 
 export default function Story({products}) {
     return (
@@ -15,7 +15,7 @@ export default function Story({products}) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet" />
           </Head>
-          <ProductList products={products} />
+          <ProductListAll products={products} />
         </>
     )
 }
