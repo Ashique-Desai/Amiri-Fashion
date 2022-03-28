@@ -17,8 +17,12 @@ export default function SectionMensCopy() {
                             // layout='fill'
                         />
                     </div>
-                    <span className='absolute z-[999] bottom-6'>
-                        <CallToAction />
+                    <span className='absolute z-[40] bottom-6 w-1/2'>
+                        <CallToAction title='Footwear Men' description='AMIRI’s singular journey cornerstones the 
+                            Autumn-Winter 2022 collection, which marks Mike Amiri’s debut 
+                            runway show in his home of Los Angeles – a 
+                            proud moment for him and his team.' 
+                        />
                     </span>
                 </li>
                 <li className='lg:wrapper-one-half w-full relative lg:pl-4 lg:mb-0 mb-8'>
@@ -30,8 +34,12 @@ export default function SectionMensCopy() {
                             // layout='fill'
                         />
                     </div>
-                    <span className='absolute z-[999] bottom-6'>
-                        <CallToAction />
+                    <span className='absolute z-[40] bottom-6 w-1/2'>
+                        <CallToAction title='Menswear' description='AMIRI’s singular journey cornerstones the 
+                            Autumn-Winter 2022 collection, which marks Mike Amiri’s debut 
+                            runway show in his home of Los Angeles – a 
+                            proud moment for him and his team.' 
+                        />
                     </span>
                 </li>
             </ul>

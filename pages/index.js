@@ -1,10 +1,5 @@
 import React from "react"
 import { getProductsInCollection } from "../lib/shopify"
-// import Hero from "../components/BannerMens"
-// import SectionOne from "../components/SectionMens"
-// import Carousel from "../components/Carousel"
-// import SocialResponsibility from "../components/SocialResponsibility"
-// import Shipping from "../components/Shipping"
 import Head from 'next/head'
 // import CTASignup from "../components/CTASignUp"
 import BannerMens from "../components/BannerMens"

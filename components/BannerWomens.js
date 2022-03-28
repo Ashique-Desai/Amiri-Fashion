@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import imageLadyinBlack from '../images/home-lady-in-black.jpg'
-import CTAdelete from './CTAdelete' 
 import TextHeadingBlock from './TextHeadingBlock'
+import CallToAction from './CallToAction'
 
 export default function BannerWomens() {
     return (
@@ -17,8 +17,15 @@ export default function BannerWomens() {
                         layout="fill"
                     />
                 </div>
-                {/* <CallToAction /> */}
-                <CTAdelete description='Description text' />
+                <div className='w-1/4 absolute' >
+                    <CallToAction 
+                        title='Autumn Winter 2022 Menswear Show'
+                        description='AMIRI’s singular journey cornerstones the 
+                        Autumn-Winter 2022 collection, which marks Mike Amiri’s debut 
+                        runway show in his home of Los Angeles – a 
+                        proud moment for him and his team.'
+                    />
+                </div>
             </div>
         </div>
     )

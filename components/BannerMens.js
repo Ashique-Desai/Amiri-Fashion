@@ -1,5 +1,4 @@
 // This section is the hero section of this website.
-
 import React from 'react'
 import Image from 'next/image'
 import heroLarge from '../images/hero-1.jpg'
@@ -8,7 +7,7 @@ import CallToAction from './CallToAction'
 
 export default function BannerMens() {
   return (
-    <div className='relative lg:mb-16 mb-8'>
+    <div className='relative lg:mb-16 mb-8 w-full'>
       <div className='relative block overflow-hidden box-border h-[100vh] bg-white' data-gradient="true">
         <Image className='relative'
           src={heroLarge}
@@ -17,7 +16,15 @@ export default function BannerMens() {
           layout="fill"
         />
       </div>
-      <CallToAction />
+      <div className='w-1/4 absolute' >
+        <CallToAction 
+          title='Autumn Winter 2022 Menswear Show'
+          description='AMIRI’s singular journey cornerstones the 
+          Autumn-Winter 2022 collection, which marks Mike Amiri’s debut 
+          runway show in his home of Los Angeles – a 
+          proud moment for him and his team.'
+        />
+      </div>
     </div>
   )
 }
