@@ -18,7 +18,7 @@ export default function BannerMens() {
       </div>
       {/* experimental */}
       <div className='w-1/4 absolute' >
-        <div className='bottom-left-aligned lg:ml-16 ml-6 lg:mb-20 mb-10 z-[40] text-white'>
+        <div className='bottom-left-aligned lg:ml-16 ml-6 lg:mb-20 mb-12 z-[40] text-white'>
           <CallToAction
             title='Autumn Winter 2022 Menswear Show'
             description='AMIRI’s singular journey cornerstones the 
