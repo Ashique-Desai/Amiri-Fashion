@@ -8,7 +8,7 @@ export default function Jobs() {
             <Head>
                 <title>Hey Sassy - Jobs</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                <meta name="theme-color" content="#ff00a5" />
+                <meta name="theme-color" content="#000000" />
             </Head>
             <div className="min-h-screen py-12 sm:pt-20">
                 <JobsCard />
