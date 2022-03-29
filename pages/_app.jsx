@@ -14,7 +14,7 @@ const publicPages = ['/', '/products/[product]', '/faq', '/jobs', '/privacy', '/
 // Supplying a theme prop for clerk
  const theme = {
     general: {
-      color: "#fb8122",
+      color: "#000000",
       backgroundColor: "#ffffef",
       fontColor: "#1d2228",
       labelFontWeight: "300",
