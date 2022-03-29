@@ -11,6 +11,11 @@
     background-color: #fdfdfd;
     color: #1d1d1d;
     font-family: 'Lato', sans-serif;
+    letter-spacing: .5pt;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    text-transform: uppercase;
   }
   /* custom scroll bar start */
 
