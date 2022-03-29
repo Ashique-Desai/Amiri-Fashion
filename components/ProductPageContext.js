@@ -25,7 +25,7 @@ export default function ProductPageContent({ product }) {
 
   return (
     <div>
-      <div className="w-full flex lg:flex-1 lg:flex-row flex-col justify-between justify-items-start">
+      <div className="w-full flex lg:flex-1 lg:flex-row flex-col justify-between justify-items-start mt-12 lg:px-12 3xl:pr-[12vw]">
         {/* <div className="lg:w-10/12 w-full overflow-hidden lg:pl-8"> */}
         <div className="relative pt-4">
           <Swiper

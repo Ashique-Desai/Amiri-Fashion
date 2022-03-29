@@ -18,7 +18,7 @@ const navigation2 = [
 
 export default function Footer() {
   return (
-    <footer className="relative bg-transparent mt-16 lg:py-24 py-12 px-2 overflow-hidden sm:px-6 lg:px-16 uppercase">
+    <footer className="relative bg-transparent mt-0 lg:mt-16 lg:py-24 py-6 px-2 overflow-hidden sm:px-6 lg:px-16 uppercase">
       <div className="ml-auto mr-auto lg:pr-60 pr-0 flex lg:flex-row-reverse flex-col lg:justify-between">
         <nav className="lg:hidden flex flex-col text-sm">
           <div className="text-current px-4 lg:pl-0 py-2">
