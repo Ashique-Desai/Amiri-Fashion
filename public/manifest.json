@@ -1,6 +1,6 @@
 {
-    "name": "Hey Sassy",
-    "short_name": "Sassy",
+    "name": "AMIRI",
+    "short_name": "AMIRI",
     "icons": [
       {
         "src": "/icon-192x192.png",
@@ -15,7 +15,7 @@
       }
     ],
     "theme_color": "#000000",
-    "background_color": "#ff00a5",
+    "background_color": "#000000",
     "start_url": "/",
     "display": "standalone",
     "orientation": "portrait"
