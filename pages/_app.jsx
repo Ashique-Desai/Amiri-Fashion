@@ -55,11 +55,6 @@ export default function MyApp({ Component, pageProps }) {
           </SignedOut>
         </>
       )}
-      {/* <ShopProvider>
-      <Layout>
-        <Component {...pageProps} key={router.asPath} />
-      </Layout>
-    </ShopProvider> */}
     </ClerkProvider>
   )
 }
