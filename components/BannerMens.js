@@ -14,6 +14,7 @@ export default function BannerMens() {
           alt="hero"
           objectFit="cover"
           layout="fill"
+          priority
         />
       </div>
       {/* experimental */}

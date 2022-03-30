@@ -6,7 +6,7 @@ import CallToAction from './CallToAction'
 
 export default function BannerWomens() {
     return (
-        <div className='block relative mb-16'>
+        <div className='block relative mb-16 w-full'>
             <div className='relative'>
                 <TextHeadingBlock text='SPRING-SUMMER 2022 WOMENSWEAR' />
                 <div className='relative block mt-16 overflow-hidden box-border h-[100vh]' data-gradient="true">
@@ -21,11 +21,9 @@ export default function BannerWomens() {
                 <div className='w-1/4 absolute' >
                     <div className='bottom-left-aligned lg:ml-16 ml-6 lg:mb-20 mb-10 z-[40] text-white'>
                         <CallToAction
-                            title='Autumn Winter 2022 Menswear Show'
-                            description='AMIRI’s singular journey cornerstones the 
-                                Autumn-Winter 2022 collection, which marks Mike Amiri’s debut 
-                                runway show in his home of Los Angeles – a 
-                                proud moment for him and his team.'
+                            title='SPRING-SUMMER 2022 Womenswear'
+                            description='The timeless archetypal AMIRI woman is introduced: empowered and at ease, 
+                            with total clarity of purpose.'
                         />
                     </div>
                 </div>

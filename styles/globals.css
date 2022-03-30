@@ -17,55 +17,10 @@
     -webkit-text-size-adjust: 100%;
     text-transform: uppercase;
   }
-  /* custom scroll bar start */
-
-  /* custom scroll bar end */
-
-  /* keenSlider (Carousel)  code start */
-  [class^="number-slide"],
-  [class*=" number-slide"] {
-    /* background: grey; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* font-size: 50px; */
-    /* color: #fff;
-    font-weight: 500; */
-    height: 100px;
-    max-height: 100vh;
-    flex-direction: column;
-  }
-  
-  .number-slide1 {
-    background: transparent;
-  }
-  
-  .number-slide2 {
-    background: transparent;
-  }
-  
-  .number-slide3 {
-    background: transparent;
-  }
-  
-  .number-slide4 {
-    background: transparent;
-  }
-  
-  .number-slide5 {
-    background: transparent;
-  }
-  .number-slide6 {
-    background: transparent;
-  }
-  /* keenSlider (Carousel) code end */
 }
 
 @layer utilities {
-  .bg-sassy-pink {
-    background-color: #ff00a5;
-  }
-  .color-amiri-white {
+ .color-amiri-white {
     color: #fdfdfd;
   }
   .bg-off-white {
@@ -136,55 +91,53 @@
   
   /*Two unequal images in equal grid colums - start */
   .wrapper-two-images {
-            display: flex;
-            /* flex-wrap: wrap; */
-            flex-direction: row;
-            /* width: 100vw; */
-            margin-left: auto;
-            margin-right: auto;
-            overflow: hidden;
-        }
+      display: flex;
+      /* flex-wrap: wrap; */
+      flex-direction: row;
+      /* width: 100vw; */
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+  }
 
-        .wrapper-one-half {
-            height: 100vh;
-            flex-grow: 1;
-            width: 50%;
+  .wrapper-one-half {
+      height: 100vh;
+      flex-grow: 1;
+      width: 50%;
 
-            box-sizing: border-box;
-            float: left;
-            min-height: 1px;
-            vertical-align: top;
-               
-        }
-       
-        .image-item {
-            max-height: 100%;
-            min-width: 100%;
-            object-fit: cover;
-            vertical-align: bottom;
+      box-sizing: border-box;
+      float: left;
+      min-height: 1px;
+      vertical-align: top;
+          
+  }
+  
+  .image-item {
+      max-height: 100%;
+      min-width: 100%;
+      object-fit: cover;
+      vertical-align: bottom;
 
-            height: 0px;
-            padding-bottom: 125%;
-            position: relative;
-            display: block;
-            background-color: #f7f7f7;
-            overflow: hidden;
+      height: 0px;
+      padding-bottom: 125%;
+      position: relative;
+      display: block;
+      background-color: #f7f7f7;
+      overflow: hidden;
 
-        }
-        @media only screen and (min-width: 768px) {
-            *[data-gradient="true"]:after {
-                content: '';
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                top: 0px;
-                left: 0px;
-                background-image: linear-gradient(45deg, rgba(38, 38, 38, 0.86) 0%, rgba(0, 0, 0, 0.08) 54%);
-                mix-blend-mode: multiply;
-                z-index: 30;
-            }
-        }
-
-
+  }
+  @media only screen and (min-width: 768px) {
+      *[data-gradient="true"]:after {
+          content: '';
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          background-image: linear-gradient(45deg, rgba(38, 38, 38, 0.86) 0%, rgba(0, 0, 0, 0.08) 54%);
+          mix-blend-mode: multiply;
+          z-index: 30;
+      }
+  }
   /*Two unequal images in equal grid colums - end */
 }
