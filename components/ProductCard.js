@@ -28,13 +28,15 @@ const ProductCard = ({ product }) => {
               layout="fill"
               objectFit="cover"
             />
+            {/* Visible at larger screen */}
             <span className='hidden lg:inline-block absolute bottom-0 ml-16 mb-4 text-xs'><p>{title}</p></span>
           </div>
         </div>
        
         {/* <button className='bg-sassy-pink color-off-white rounded-full px-4 py-2 my-3'>Add to Cart | {formatter.format(price)}</button>
         <p className="mt-1 text-base">{formatter.format(price)}  |  <span><del>{formatter.format(compareAtPrice)}</del></span></p> */}
-         <span className='inline-block lg:hidden relative bottom-0 text-xs'><p className='ml-4 mt-4'>{title}</p></span>
+        {/* Visibile for Mobile device */}
+         <span className='inline-block lg:hidden relative bottom-0 text-xs'><p className='ml-6 mt-4'>{title}</p></span>
       </a>
     </Link>
     
