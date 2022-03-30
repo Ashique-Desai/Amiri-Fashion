@@ -18,7 +18,7 @@ const navigation2 = [
 
 export default function Footer() {
   return (
-    <footer className="relative bg-transparent mt-0 lg:mt-16 lg:py-24 py-6 px-2 overflow-hidden sm:px-6 lg:px-16 uppercase">
+    <footer className="relative bg-transparent mt-0 lg:mt-16 lg:py-24 pt-14 pb-6 px-2 overflow-hidden sm:px-6 lg:px-16 uppercase">
       <div className="ml-auto mr-auto lg:pr-60 pr-0 flex lg:flex-row-reverse flex-col lg:justify-between">
         <nav className="lg:hidden flex flex-col text-sm">
           <div className="text-current px-4 lg:pl-0 py-2">
@@ -70,7 +70,7 @@ export default function Footer() {
             &copy; 2022 AMIRI.
           </p>
           <hr className="line bg-slate-300 m-0 my-2 align-text-left"></hr>
-          <p className="text-current m-0 my-2 normal-case text-sm lg:py-2 py-0">
+          <p className="text-current m-0 my-2 text-sm lg:py-2 py-0">
             Our vision is to design and deliver<br className="xl:hidden" /> fashion, while always keeping it fresh.
           </p>
         </div>
