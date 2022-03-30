@@ -45,7 +45,6 @@ export default function ProductPageContent({ product }) {
         {/* </div> */}
 
       </div>
-      {/* <p className="pt-4 ml-8 md:space-x-4 mx-auto xl:w-[700px]">{product.description}</p> */}
       <hr className='w-full mt-10' />
       <RecommendedList current={product.id} products={product.collections.edges[0].node.products.edges} />
     </div>

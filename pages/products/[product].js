@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import Head from "next/head"
-import ProductPageContent from "../../components/ProductPageContext"
+import ProductPageContent from "../../components/ProductPageContent"
 import { getProduct, recursiveCatalog } from "../../lib/shopify"
 
 export default function ProductPage({ product }) {
