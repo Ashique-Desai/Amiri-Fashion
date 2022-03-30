@@ -15,7 +15,6 @@ const ProductListMens = ({ products }) => {
           ))
         }
       </div>
-    {/* </div> */}
     </>
   )
 }

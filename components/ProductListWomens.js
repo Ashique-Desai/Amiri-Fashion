@@ -6,7 +6,7 @@ import ProductCard from "./ProductCard"
 const ProductListWomens = ({ products }) => {
   return (
     // <div className="block relative bg-off-white mt-6 px-6 pt-8 pb-16 text-center">
-    <div className="text-center mb-16">
+    <div className="mb-16">
       {/* <h2 className="text-base font-extrabold pt-14 pb-14 tracking-widest">
         PRE-SPRING 2022 MENSWEAR
       </h2> */}
