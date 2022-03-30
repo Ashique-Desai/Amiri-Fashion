@@ -10,7 +10,7 @@ import { useRouter } from 'next/router'
 import '../styles/globals.css'
 import { ClerkProvider, SignedIn, SignedOut, RedirectToSignIn } from '@clerk/nextjs'
 
-const publicPages = ['/', '/products/[product]', '/faq', '/jobs', '/privacy', '/returns', '/terms', '/shop', '/shipping', '/story']
+const publicPages = ['/', '/products/[product]', '/faq', '/jobs', '/privacy', '/returns', '/terms', '/shop', '/shipping', '/story', '/footwear']
 // Supplying a theme prop for clerk
  const theme = {
     general: {

@@ -91,7 +91,7 @@ export default function NavExperimental3() {
     <Popover className="relative bg-transparent uppercase">
       <div className="max-w-8xl mx-auto px-4 sm:px-16 relative mix-blend-difference z-[40]">
         {/* Desktop */}
-        <div className="wrapper-navbar ml-auto mr-auto py-8 md:justify-start md:space-x-10 items-center">
+        <div className="wrapper-navbar ml-auto mr-auto py-6 md:justify-start md:space-x-10 items-center">
           <div className="hidden md:flex justify-start lg:w-0 lg:flex-1 text-sm text-white">
             <Popover.Group as="nav" className="hidden md:flex space-x-10 z-[9999]">
               <Link href="/shop">
@@ -108,7 +108,7 @@ export default function NavExperimental3() {
           {/* Hamburger Menu Below */}
           <div className="box md:hidden">
             <span className='mr-auto'>
-              <Popover.Button className="p-2 inline-flex items-center justify-center decoration-inherit text-white">
+              <Popover.Button className="inline-flex items-center justify-center decoration-inherit text-white">
                 <span className="sr-only">Open menu</span>
                 <MenuIcon className="h-6 w-6" aria-hidden="true" />
               </Popover.Button>
@@ -118,8 +118,8 @@ export default function NavExperimental3() {
           <div as="nav" className="box space-x-10">
             <span>
               <div style={{ cursor: "pointer" }} className="relative">
-                <Link href="/">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="146" height="24" viewBox="0 0 350 50" xmlns="https://vecta.io/nano">
+                <Link  href="/">
+                  <svg className='lg:w-44 w-28 h-auto' xmlns="http://www.w3.org/2000/svg" fill="white" width="146" height="24" viewBox="0 0 350 50" xmlns="https://vecta.io/nano">
                     <path d="M171.216 0h9.273v49.485h-9.273zm119.511 0H300v49.485h-9.273zM90.118 49.485V18.088l17.226 31.397h3.931L128.5 18.091v31.394h9.273V0h-9.928L109.31 
                           33.788 90.77 0h-9.925v49.485zM23.863.014L0 49.485h10.293l5.932-12.3h23.646l5.932 
                           12.3h10.293L32.234.014zm-3.9 29.421l8.087-16.776 8.087 16.776zm226.936.028c1.389-.191 2.757-.507 4.089-.944 6.061-2.133 
@@ -157,7 +157,7 @@ export default function NavExperimental3() {
                 </Link>
               </SignedOut>
               {/* Cart icon below */}
-              <button title="Cart" className="py-4  relative transition duration-150 ease-in-out" aria-label="Cart">
+              <button title="Cart" className="relative transition duration-150 ease-in-out" aria-label="Cart">
                 <a className="text-md font-bold cursor-pointer"
                   onClick={() => setCartOpen(!cartOpen)}>
                   <svg className="sm:h-5 sm:w-5 h-6 w-6" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="white">

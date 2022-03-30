@@ -24,6 +24,7 @@ export default function SectionMensCopy() {
                                 Autumn-Winter 2022 collection, which marks Mike Amiri’s debut 
                                 runway show in his home of Los Angeles – a 
                                 proud moment for him and his team.'
+                                url='/footwear'
                             />
                         </div>
                     </span>
@@ -61,6 +62,7 @@ export default function SectionMensCopy() {
                                 Autumn-Winter 2022 collection, which marks Mike Amiri’s debut 
                                 runway show in his home of Los Angeles – a 
                                 proud moment for him and his team.'
+                               
                             />
                         </div>
                     </span>
