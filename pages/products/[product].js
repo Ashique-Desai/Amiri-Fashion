@@ -5,10 +5,10 @@ import ProductPageContent from "../../components/ProductPageContent"
 import { getProduct, recursiveCatalog } from "../../lib/shopify"
 
 export default function ProductPage({ product }) {
-   return (
+  return (
     <>
       <Head>
-        <title>Hey Sassy - Products</title>
+        <title>AMIRI - { product.title }</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="theme-color" content="#000000" />
       </Head>

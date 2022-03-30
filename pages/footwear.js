@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import Head from "next/head"
-import { getProductsInCollection } from "../lib/shopify"
+import { getAllProductsTaggedFootwear } from "../lib/shopify"
 import ProductListFootwear from "../components/ProductListFootwear"
 
 export default function Story({products}) {
@@ -21,7 +21,7 @@ export default function Story({products}) {
 }
 
 export async function getStaticProps() {
-    const products = await getProductsInCollection()
+    const products = await getAllProductsTaggedFootwear()
     return {
       props: { products }, // will be passed to the page component as props
     }
