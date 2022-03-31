@@ -32,7 +32,7 @@ export default function ProductPageContent({ product }) {
             style={{ '--swiper-navigation-color': '#000', '--swiper-pagination-color': '#000' }}
             navigation
             pagination={{ clickable: true }}
-            className="lg:w-[700px] w-full h-auto aspect-square mb-3"
+            className="3xl:w-[850px] lg:w-[700px] w-full h-auto aspect-square mb-3"
             loop="true"
           >
             {images}

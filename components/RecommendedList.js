@@ -6,7 +6,7 @@ import ProductCard from "./ProductCard"
 const RecommendedList = ({ products, current }) => {
   return (
    <>
-      <div className="max-w-screen-3xl mx-auto py-16  sm:py-24">
+      <div className="lg:px-12 py-16 sm:py-24">
         <h2 className="text-base font-extrabold mb-6 lg:pl-0 pl-4">
           Recommended Products
         </h2>

@@ -1,5 +1,5 @@
 import React from "react"
-import { getProductsInCollection } from "../lib/shopify"
+import { getProductsInCollection, getProductsInMenswearCollection, getProductsInWomenswearCollection } from "../lib/shopify"
 import Head from 'next/head'
 // import CTASignup from "../components/CTASignUp"
 import BannerMens from "../components/BannerMens"
@@ -10,7 +10,7 @@ import ProductListMens from "../components/ProductListMens"
 import BannerWomens from "../components/BannerWomens"
 
 // eslint-disable-next-line react/prop-types
-export default function Home({ products }) {
+export default function Home({ productsMenswear, productsWomenswear }) {
   return (
     <>
       <Head>
@@ -23,9 +23,9 @@ export default function Home({ products }) {
       </Head>
       <BannerMens />
       <SectionMens />
-      <ProductListMens products={products} />
+      <ProductListMens products={productsMenswear} />
       <BannerWomens />
-      <ProductListWomens products={products} />
+      <ProductListWomens products={productsWomenswear} />
       <SectionAccessories />
     </> 
   )
@@ -33,7 +33,10 @@ export default function Home({ products }) {
 
 export async function getStaticProps() {
   const products = await getProductsInCollection()
+  const productsMenswear = await getProductsInMenswearCollection()
+  const productsWomenswear = await getProductsInWomenswearCollection()
+ 
   return {
-    props: { products }, // will be passed to the page component as props
+    props: { products, productsMenswear, productsWomenswear }, // will be passed to the page component as props
   }
 }

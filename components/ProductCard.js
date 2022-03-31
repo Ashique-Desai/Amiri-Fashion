@@ -20,7 +20,7 @@ const ProductCard = ({ product }) => {
     <Link
       href={`/products/${handle}`}>
        <a className="group">
-        <div className=" bg-gray-200  overflow-hidden aspect-square">
+        <div className=" bg-gray-200 overflow-hidden aspect-square">
           <div className="relative group-hover:opacity-75 h-full">
             <Image
               src={originalSrc}
