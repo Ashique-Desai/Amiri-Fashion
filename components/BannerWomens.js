@@ -17,8 +17,8 @@ export default function BannerWomens() {
                         layout="fill"
                     />
                 </div>
-                 {/* experiment */}
-                 <span className='left-0 top-0 mt-5 relative z-[40] w-full sm:bottom-6 sm:absolute sm:w-1/4'>
+                {/* CTA Section */}
+                <span className='left-0 top-0 mt-5 relative z-[40] w-full sm:bottom-6 sm:absolute sm:w-1/4'>
                         <div className='relative text-white sm:absolute sm:bottom-0 sm:left-0 lg:ml-16 ml-6 mr-6 lg:mb-20 mb-10 z-[40] mix-blend-difference'>
                             <CallToAction title='Womenswear SPRING-SUMMER 2022' description='The timeless archetypal AMIRI woman is introduced: empowered and at ease, 
                             with total clarity of purpose.'
