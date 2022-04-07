@@ -9,7 +9,7 @@ const ProductListMens = ({ products }) => {
     return (
         <>
             {/* Page Hero Image */}
-            <div className='relative w-full mt-[90px]'>
+            <div className='relative w-full sm:mt-[90px] mt-[70px]'>
                 <div className='relative block overflow-hidden box-border h-[100vw] pb-0 sm:max-h-[65vh] max-h-[256px]'>
                     <Image className='absolute w-full left-0 top-0 max-w-full h-full'
                         src={heroFootWear}

@@ -25,9 +25,9 @@ export default function ProductPageContent({ product }) {
 
   return (
     <div>
-      <div className="w-full flex lg:flex-1 lg:flex-row flex-col justify-between justify-items-start mt-12 lg:px-12 3xl:pr-[12vw]">
+      <div className="w-full flex lg:flex-1 lg:flex-row flex-col justify-between justify-items-start mt-6 lg:px-12 3xl:pr-[12vw]">
         {/* <div className="lg:w-10/12 w-full overflow-hidden lg:pl-8"> */}
-        <div className="relative pt-4">
+        <div className="relative sm:pt-4 pt-0">
           <Swiper
             style={{ '--swiper-navigation-color': '#000', '--swiper-pagination-color': '#000' }}
             navigation
