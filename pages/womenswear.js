@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import Head from "next/head"
-import { getProductsInMenswearCollection } from "../lib/shopify"
-import ProductsPageMenswear from "../components/ProductsPageMenswear"
+import { getProductsInWomenswearCollection } from "../lib/shopify"
+import ProductsPageWomenswear from "../components/ProductsPageWomenswear"
 
-export default function Footwear({  allProductsMenswear  }) {
+export default function Footwear({  allProductsWomenswear  }) {
     return (
         <>
         <Head>
@@ -15,25 +15,18 @@ export default function Footwear({  allProductsMenswear  }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet" />
           </Head>
-          <ProductsPageMenswear products={allProductsMenswear } />
+          <ProductsPageWomenswear products={allProductsWomenswear} />
         </>
     )
 }
 
 export async function getStaticProps() {
-    const allProductsMenswear  = await getProductsInMenswearCollection();
+    const allProductsWomenswear  = await getProductsInWomenswearCollection();
     return {
-      props: { allProductsMenswear }, // will be passed to the page component as props
+      props: { allProductsWomenswear }, // will be passed to the page component as props
     }
 }
 
-// export async function getStaticProps() {
-//   const products = await getProductsInCollection()
-//   return {
-//     props: { products }, // will be passed to the page component as props
-//   }
-// }
-
   Footwear.propTypes = {
-    allProductsMenswear: PropTypes.any,
+    allProductsWomenswear: PropTypes.any,
   }
