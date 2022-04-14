@@ -119,7 +119,8 @@ export default function NavExperimental3() {
             <span>
               <div style={{ cursor: "pointer" }} className="relative">
                 <Link  href="/">
-                  <svg className='lg:w-44 w-28 h-auto' xmlns="http://www.w3.org/2000/svg" fill="white" width="146" height="24" viewBox="0 0 350 50" xmlns="https://vecta.io/nano">
+                {/* xmlns="https://vecta.io/nano" - deleted from below */}
+                  <svg className='lg:w-44 w-28 h-auto' xmlns="http://www.w3.org/2000/svg" fill="white" width="146" height="24" viewBox="0 0 350 50">
                     <path d="M171.216 0h9.273v49.485h-9.273zm119.511 0H300v49.485h-9.273zM90.118 49.485V18.088l17.226 31.397h3.931L128.5 18.091v31.394h9.273V0h-9.928L109.31 
                           33.788 90.77 0h-9.925v49.485zM23.863.014L0 49.485h10.293l5.932-12.3h23.646l5.932 
                           12.3h10.293L32.234.014zm-3.9 29.421l8.087-16.776 8.087 16.776zm226.936.028c1.389-.191 2.757-.507 4.089-.944 6.061-2.133 

@@ -1,3 +1,4 @@
+// Rename this file to - ProductsPageFootwear
 import PropTypes from 'prop-types'
 import React from 'react'
 import ProductCard from "./ProductCard"

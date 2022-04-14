@@ -4,7 +4,7 @@ import imageShoe from '../images/home-shoe.jpg'
 import imageBlackJeans from '../images/home-jeans-black.jpg'
 import CallToAction from './CallToAction'
 
-export default function SectionMensCopy() {
+export default function SectionMens() {
     return (
         <>
             <ul className='lg:wrapper-two-images flex flex-col'>
@@ -62,6 +62,7 @@ export default function SectionMensCopy() {
                                 Autumn-Winter 2022 collection, which marks Mike Amiri’s debut 
                                 runway show in his home of Los Angeles – a 
                                 proud moment for him and his team.'
+                                url='/menswear'
                                
                             />
                         </div>
