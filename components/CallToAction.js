@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function CallToAction(props) {
     
     return (
-        <>
+        <div className='mix-blend-difference'>
             {/* added back classes: text-white */}
             <h4 className='text-lg mb-1 mt-2 sm:mb-7 uppercase font-bold text-white'>{props.title}</h4>
             {/* added back classes: text-white */}
@@ -17,7 +17,7 @@ export default function CallToAction(props) {
                     DISCOVER
                 </button>
             </Link>
-        </>
+        </div>
     )
 }
 
