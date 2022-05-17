@@ -31,18 +31,23 @@ import { useUser, UserButton, SignedIn, SignedOut } from '@clerk/nextjs';
 
 const solutions = [
   {
-    name: 'SHOP',
+    name: 'Menswear',
     description: 'ALL CATAGORIES.',
-    href: '/shop',
+    href: '/menswear',
     icon: ChartBarIcon,
   },
   {
-    name: 'STORY',
+    name: 'Womenswear',
     description: 'Speak directly to your customers in a more meaningful way.',
-    href: '/story',
+    href: '/womenswear',
     icon: CursorClickIcon,
   },
-  { name: 'SHIPPING', description: "Shipping.", href: '/shipping', icon: ShieldCheckIcon },
+  { 
+    name: 'Accessories', 
+    description: "Accessories", 
+    href: '/accessories', 
+    icon: ShieldCheckIcon 
+  },
 
 ]
 const callsToAction = [
@@ -94,14 +99,17 @@ export default function NavExperimental3() {
         <div className="wrapper-navbar ml-auto mr-auto py-6 md:justify-start md:space-x-10 items-baseline">
           <div className="hidden md:flex justify-start lg:w-0 lg:flex-1 text-xs text-white">
             <Popover.Group as="nav" className="hidden md:flex space-x-10 z-[9999]">
-              <Link href="/shop">
-                Shop
+              <Link href="/menswear">
+                Menswear
               </Link>
-              <Link href="/story" >
-                Story
+              <Link href="/womenswear" >
+                Womenswear
               </Link >
-              <Link href="/shipping">
-                Shipping
+              {/* <Link href="/footwear">
+                Footwear
+              </Link > */}
+              <Link href="/accessories">
+                accessories
               </Link >
             </Popover.Group>
           </div>

@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from "next/link"
 const navigation1 = [
-  { name: 'Shop', href: '/shop' },
-  { name: 'Jobs', href: '/jobs' },
-  { name: 'Story', href: '/story' },
+  { name: 'Menswear', href: '/menswear' },
+  { name: 'Womenswear', href: '/womenswear' },
+  { name: 'Accessories', href: '/accessories' },
   { name: 'Shipping', href: '/shipping' },
 ]
 
@@ -58,9 +58,9 @@ export default function Footer() {
           {
             navigation1.map((item, i) => (
               <div key={i} className="px-4 lg:py-2 py-0">
-                <a href={item.href} className="text-current">
+                <Link href={item.href} className="text-current">
                   {item.name}
-                </a>
+                </Link>
               </div>
             ))
           }
