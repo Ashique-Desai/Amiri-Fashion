@@ -18,7 +18,7 @@ export default function SectionMens() {
                         />
                     </div>
                     {/* experiment */}
-                    <span className='left-0 top-0 mt-5 relative z-[40] w-full sm:bottom-6 sm:absolute sm:w-1/2 bg-white'>
+                    <span className='left-0 top-0 mt-5 relative z-[40] w-full sm:bottom-6 sm:absolute sm:w-1/2'>
                         <div className='relative text-white sm:absolute sm:bottom-0 sm:left-0 lg:ml-16 ml-6 mr-6 lg:mb-20 mb-10 z-[40] mix-blend-difference'>
                             <CallToAction title='Footwear' description='AMIRI’s singular journey cornerstones the 
                                 Autumn-Winter 2022 collection, which marks Mike Amiri’s debut 
