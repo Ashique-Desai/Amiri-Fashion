@@ -6,7 +6,7 @@ export default function Privacy() {
   return (
     <>
       <Head>
-        <title>Hey Sassy - Privacy Policy</title>
+        <title>Amiri - Privacy Policy</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="theme-color" content="#ff00a5" />
       </Head>

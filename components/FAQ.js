@@ -11,7 +11,7 @@ export default function FAQ() {
                     <h3 className="text-lg font-bold  sm:text-xl md:text-2xl">Returns</h3>
                     <p className="mt-2 text-base  sm:text-lg md:text-normal">
                         We want you to be so excited about every item you purchase from us, so, if you don&apos;t love your garment, send it back!
-                        To begin processing your return please go to: returns.heysassy.com
+                        To begin processing your return please go to: returns.amiri.com
                         We offer full refunds on all regular priced items but there is $5 restocking fee per garment.
                         The restocking fee is waived if you opt to get your return in the form of store credit however.
                         Once a return arrives on site it will take a few days for us to confirm that the item was returned undamaged and in 
@@ -23,7 +23,7 @@ export default function FAQ() {
                     <h3 className="text-lg font-bold  sm:text-xl md:text-2xl">Can I exchange for another size?</h3>
                     <p className="mt-2 text-base  sm:text-lg md:text-normal">
                     Yes! We are able to accommodate exchanges for items that are in stock. 
-                    To begin processing an exchange please go to returns.heysassy.com to begin your exchange or refund. 
+                    To begin processing an exchange please go to returns.amiri.com to begin your exchange or refund. 
                     Please keep in mind that we make our clothes in very limited batches and so we may not be able 
                     to accommodate an exchange in your size of choice. 
                     </p>
@@ -39,8 +39,8 @@ export default function FAQ() {
                 <div className="w-full px-6 py-6 mx-auto mt-10 bg-slate-50 sm:px-8 md:px-12 sm:py-8 lg:w-5/6 xl:w-2/3 rounded-lg">
                     <h3 className="text-lg font-bold  sm:text-xl md:text-2xl">My item was wrong or something was wrong</h3>
                     <p className="mt-2 text-base  sm:text-lg md:text-normal">
-                    Please email us at hello.heysassy.com with a description (photos help also!) and I will make it right and shower you with attention and apologies. 
-                    If your item is completely wrong you can go to returns.heysassy.com and select “Sent the wrong item.” This will allow you to have the corrected item sent out to you as soon as possible.
+                    Please email us at hello.amiri.com with a description (photos help also!) and I will make it right and shower you with attention and apologies. 
+                    If your item is completely wrong you can go to returns.amiri.com and select “Sent the wrong item.” This will allow you to have the corrected item sent out to you as soon as possible.
                     If you received an item that was damaged in the mail you will need to file a claim with Route. 
                     </p>
                 </div>

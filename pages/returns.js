@@ -5,11 +5,11 @@ export default function ReturnExchange() {
     return (
         <>
             <Head>
-                <title>Hey Sassy - Returns</title>
+                <title>Amiri - Returns</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta name="theme-color" content="#ff00a5" />
             </Head>
-            <section className="relative py-16 min-w-screen animation-fade animation-delay bg-slate-50">
+            <section className="relative py-36 min-w-screen animation-fade animation-delay bg-slate-50">
                 <div className="container px-8 mx-auto sm:px-12 xl:px-5">
                     <h3 className="mt-1 text-2xl font-bold text-left  sm:mx-6 sm:text-3xl md:text-4xl lg:text-5xl sm:text-center pb-12">
                         Return and Refund Policy
@@ -23,7 +23,7 @@ export default function ReturnExchange() {
                     <p>For the purposes of this Return and Refund Policy:</p>
                     <ul>
                         <li>
-                            <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Hey Sassy LLC, 1 Cupertino CA 98752.</p>
+                            <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Amiri LLC, 1 Cupertino CA 98752.</p>
                         </li>
                         <li>
                             <p><strong>Goods</strong> refer to the items offered for sale on the Service.</p>
@@ -35,7 +35,7 @@ export default function ReturnExchange() {
                             <p><strong>Service</strong> refers to the Website.</p>
                         </li>
                         <li>
-                            <p><strong>Website</strong> refers to Hey Sassy, accessible from <a href="www.heysassy.com" rel="external nofollow noopener" target="_blank">www.heysassy.com</a></p>
+                            <p><strong>Website</strong> refers to Amiri, accessible from <a href="www.amiri.com" rel="external nofollow noopener" target="_blank">www.amiri.com</a></p>
                         </li>
                         <li>
                             <p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
@@ -46,7 +46,7 @@ export default function ReturnExchange() {
                     <p>The deadline for cancelling an Order is 14 days from the date on which You received the Goods or on which a third party you have appointed, who is not the carrier, takes possession of the product delivered.</p>
                     <p>In order to exercise Your right of cancellation, You must inform Us of your decision by means of a clear statement. You can inform us of your decision by:</p>
                     <ul>
-                        <li>By email: hello@heysassy.com</li>
+                        <li>By email: hello@amiri.com</li>
                     </ul>
                     <p>We will reimburse You no later than 14 days from the day on which We receive the returned Goods. We will use the same means of payment as You used for the Order, and You will not incur any fees for such reimbursement.</p>
                     <h1>Conditions for Returns</h1>
@@ -76,7 +76,7 @@ export default function ReturnExchange() {
                     <h2>Contact Us</h2>
                     <p>If you have any questions about our Returns and Refunds Policy, please contact us:</p>
                     <ul>
-                        <li>By email: hello@heysassy.com</li>
+                        <li>By email: hello@amiri.com</li>
                     </ul>
                     </div>
                 </div>

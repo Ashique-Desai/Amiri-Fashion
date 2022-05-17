@@ -5,19 +5,18 @@ export default function Shipping() {
     return (
         <>
             <Head>
-                <title>Hey Sassy - Shipping Policy</title>
+                <title>Amiri - Shipping Policy</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta name="theme-color" content="#ff00a5" />
             </Head>
-            <section className="relative py-16 min-w-screen animation-fade animation-delay">
+            <section className="relative py-36 min-w-screen animation-fade animation-delay">
                 <div className="container px-8 mx-auto sm:px-12 xl:px-5">
                     <h3 className="mt-1 text-2xl font-bold text-left  sm:mx-6 sm:text-3xl md:text-4xl lg:text-5xl sm:text-center">
                         Shipping Policy
                     </h3>
                     <div className="w-full px-6 py-6 mx-auto mt-10 sm:px-8 md:px-12 sm:py-8  lg:w-5/6 xl:w-2/3 rounded-lg">
-                        {/* <h3 className="text-lg font-bold  sm:text-xl md:text-2xl">Graphic Designer</h3> */}
-                        <p className="mt-2 text-base  sm:text-lg md:text-normal">
-                        All orders are processed within 2 hours to 1 business day (excluding weekends and holidays) after receiving your order 
+                       <p className="mt-2 text-base  sm:text-lg md:text-normal">
+                        NOTE: All orders are processed within 2 hours to 1 business day (excluding weekends and holidays) after receiving your order 
                         confirmation email. You will receive another notification when your order has shipped. 
                         </p>
                     </div>
