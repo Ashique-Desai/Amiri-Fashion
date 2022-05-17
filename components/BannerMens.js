@@ -24,6 +24,7 @@ export default function BannerMens() {
             title='Autumn Winter 2022 Menswear Show'
             description='AMIRI’s journey cornerstones the 
           Autumn-Winter 2022 collection'
+          url='/spring-summer-collection'
           />
         </div>
 

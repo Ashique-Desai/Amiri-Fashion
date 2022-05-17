@@ -12,7 +12,7 @@ import { ClerkProvider, SignedIn, SignedOut, RedirectToSignIn } from '@clerk/nex
 
 const publicPages = ['/', '/products/[product]', '/faq', '/jobs', '/privacy', '/returns', 
                       '/terms', '/shop', '/shipping', '/story', '/footwear', '/menswear',
-                      '/womenswear']
+                      '/womenswear', '/spring-summer-collection', '/accessories']
 // Supplying a theme prop for clerk
  const theme = {
     general: {

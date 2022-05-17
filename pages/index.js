@@ -1,5 +1,8 @@
 import React from "react"
-import { getProductsInCollection, getProductsInMenswearCollection, getProductsInWomenswearCollection } from "../lib/shopify"
+import { 
+         getProductsInMenswearCollectionHomePage, 
+         getProductsInWomenswearCollectionHomePage
+       } from "../lib/shopify"
 import Head from 'next/head'
 // import CTASignup from "../components/CTASignUp"
 import BannerMens from "../components/BannerMens"
@@ -10,7 +13,7 @@ import ProductListMens from "../components/ProductListMens"
 import BannerWomens from "../components/BannerWomens"
 
 // eslint-disable-next-line react/prop-types
-export default function Home({ productsMenswear, productsWomenswear }) {
+export default function Home({ productsMenswearHomePage, productsWomenswearHomePage }) {
   return (
     <>
       <Head>
@@ -23,20 +26,19 @@ export default function Home({ productsMenswear, productsWomenswear }) {
       </Head>
       <BannerMens />
       <SectionMens />
-      <ProductListMens products={productsMenswear} />
+      <ProductListMens products={productsMenswearHomePage} />
       <BannerWomens />
-      <ProductListWomens products={productsWomenswear} />
+      <ProductListWomens products={productsWomenswearHomePage} />
       <SectionAccessories />
     </> 
   )
 }
 
 export async function getStaticProps() {
-  const products = await getProductsInCollection()
-  const productsMenswear = await getProductsInMenswearCollection()
-  const productsWomenswear = await getProductsInWomenswearCollection()
+  const productsMenswearHomePage = await  getProductsInMenswearCollectionHomePage()
+  const productsWomenswearHomePage = await getProductsInWomenswearCollectionHomePage()
  
   return {
-    props: { products, productsMenswear, productsWomenswear }, // will be passed to the page component as props
+    props: { productsMenswearHomePage, productsWomenswearHomePage }, // will be passed to the page component as props
   }
 }
