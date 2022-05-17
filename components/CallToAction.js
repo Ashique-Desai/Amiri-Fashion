@@ -8,8 +8,8 @@ export default function CallToAction(props) {
         <>
             {/* added back classes: text-white */}
             <h4 className='text-lg mb-1 mt-2 sm:mb-7 uppercase font-bold text-white'>{props.title}</h4>
-            {/* removed classes: text-white */}
-            <p className="mb-7 text-xs">{props.description}</p>
+            {/* added back classes: text-white */}
+            <p className="mb-7 text-xs text-white">{props.description}</p>
             <Link  href={{pathname: props.url}}>
                  {/* removed classes: border-white color-amiri-white  */}
                 <button className='bg-transparent text-white hover:text-black hover:bg-white border-[1px] 
