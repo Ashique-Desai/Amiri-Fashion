@@ -7,7 +7,7 @@ export default function CallToAction(props) {
     return (
         <>
             {/* removed classes: text-white */}
-            <h4 className='text-lg mb-1 mt-2 sm:mb-7 uppercase font-bold'>{props.title}</h4>
+            <h4 className='text-lg mb-1 mt-2 sm:mb-16 uppercase font-bold'>{props.title}</h4>
             {/* removed classes: text-white */}
             <p className="mb-7 text-xs">{props.description}</p>
             <Link  href={{pathname: props.url}}>

@@ -20,10 +20,11 @@ export default function SectionMens() {
                     {/* experiment */}
                     <span className='left-0 top-0 mt-5 relative w-full sm:bottom-6 sm:absolute sm:w-1/2'>
                         <div className='relative text-white sm:absolute sm:bottom-0 sm:left-0 lg:ml-16 ml-6 mr-6 lg:mb-20 mb-10 z-[40] sm:mix-blend-normal mix-blend-difference'>
-                            <CallToAction title='Footwear' description='AMIRI’s singular journey cornerstones the 
-                                Autumn-Winter 2022 collection, which marks Mike Amiri’s debut 
-                                runway show in his home of Los Angeles – a 
-                                proud moment for him and his team.'
+                            <CallToAction 
+                                title='Footwear' 
+                                description='AMIRI’S SPRING-SUMMER 2022 FOOTWEAR PRESENTS A STORY OF CASUAL EASE, 
+                                REIMAGINING CLASSIC SPORTSWEAR TROPES THROUGH THE HOUSE’S 
+                                WEST COAST DESIGN CODES.'
                                 url='/footwear'
                             />
                         </div>
@@ -58,10 +59,9 @@ export default function SectionMens() {
                     {/* experiment */}
                     <span className='left-0 top-0 mt-5 relative w-full sm:bottom-6 sm:absolute sm:w-1/2'>
                     <div className='relative text-white sm:absolute sm:bottom-0 sm:left-0 lg:ml-16 ml-6 mr-6 lg:mb-20 mb-0 sm:mb-10 z-[40] sm:mix-blend-normal mix-blend-difference'>
-                            <CallToAction title='Menswear' description='AMIRI’s singular journey cornerstones the 
-                                Autumn-Winter 2022 collection, which marks Mike Amiri’s debut 
-                                runway show in his home of Los Angeles – a 
-                                proud moment for him and his team.'
+                            <CallToAction 
+                                title='Menswear' 
+                                description='THE SPRING-SUMMER 2022 COLLECTION IS A DEDICATED CURATION OF LA’S DISTINCTIVE LIFESTYLES.'
                                 url='/menswear'
                                
                             />
