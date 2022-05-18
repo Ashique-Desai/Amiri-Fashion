@@ -132,7 +132,7 @@ export default function MiniCart({ cart }) {
                         <div className="mt-6">
                           <a
                             href={checkoutUrl}
-                            className="flex justify-center items-center px-6 py-3 border rounded-md shadow-sm text-base font-medium text-white bg-transparent mix-blend-difference hover:bg-gray-600"
+                            className="flex justify-center items-center px-6 py-3 border rounded-md shadow-sm text-base font-medium text-white bg-black"
                           >
                             Checkout
                           </a>
