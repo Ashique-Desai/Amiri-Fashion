@@ -4,6 +4,7 @@ const navigation1 = [
   { name: 'Menswear', href: '/menswear' },
   { name: 'Womenswear', href: '/womenswear' },
   { name: 'Accessories', href: '/accessories' },
+  {name: 'Footwear', href: '/footwear'},
   { name: 'Shipping', href: '/shipping' },
 ]
 
