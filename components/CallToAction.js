@@ -13,7 +13,8 @@ export default function CallToAction(props) {
             <Link  href={{pathname: props.url}}>
                  {/* removed classes: border-white color-amiri-white text-white */}
                 <button className='bg-transparent hover:text-black hover:bg-white border-[1px] 
-                border-white sm:border-white rounded px-14 py-2 h-16 text-sm w-full sm:max-w-[200px] ml-auto mr-auto'>
+                border-white sm:border-white rounded px-14 py-2 h-16 text-sm w-full 
+                sm:max-w-[200px] ml-auto mr-auto'>
                     DISCOVER
                 </button>
             </Link>
