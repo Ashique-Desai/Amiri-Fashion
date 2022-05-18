@@ -36,6 +36,5 @@ export async function getStaticProps() {
 // }
 
   Footwear.propTypes = {
-    productsMenswearCollection: PropTypes.any,
     productsMenswearSpringSummerCollection: PropTypes.any,
   }
