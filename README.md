@@ -1,5 +1,31 @@
 # E Commerce Progressive Web App (PWA) in Next.js
 
+## Structure
+```
+Components
+  BannerMens.js
+  BannerWomens.js
+  CTALink.js
+  CTASignUp.js
+  CTAdelete.js
+  CallToAction.js
+  Layout.js
+  Nav.js
+  MiniCart.js
+  ProductCard.js
+  ProductOptions.js
+  ProductForm.js
+  ProductListAll.js
+  ProductListMens.js
+  ProductListWomens.js
+  ProductOptions.js
+  SectionMens.js
+  SectionWomens.js
+  
+
+```
+
+
 
 
 ## How to use
